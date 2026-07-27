@@ -1,0 +1,38 @@
+
+============================================
+CRM BUSINESS ANALYSIS REPORT
+============================================
+
+Total Revenue
+₹ 10,005,534.00
+
+Total Opportunities
+8800
+
+Won Deals
+4238
+
+Lost Deals
+2473
+
+Open Deals
+2089
+
+Win Rate
+63.15 %
+
+Average Deal Value
+₹ 1,490.92
+
+Top Sales Agent
+Darcel Schlecht
+
+Best Product
+GTXPro
+
+Top Customer
+Kan-code
+
+============================================
+Report Generated Successfully
+============================================
