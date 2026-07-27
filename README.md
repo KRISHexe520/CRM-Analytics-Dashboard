@@ -1,76 +1,69 @@
-# CRM Analytics Dashboard
+# 📊 CRM Analytics Dashboard
 
-## Overview
-
-This project is an end-to-end CRM Analytics solution built using Python, SQL, Power BI, Git, and GitHub.
-
-The objective is to analyze a company's sales pipeline, identify business opportunities, evaluate sales team performance, and create an interactive dashboard for business decision-making.
+A complete end-to-end **Data Analytics Project** built using **Python, SQL, MySQL, and Power BI** to analyze CRM sales data and generate actionable business insights.
 
 ---
 
-## Business Problem
+# 🚀 Project Overview
 
-A company wants to answer the following questions:
+This project analyzes a CRM sales pipeline dataset to understand sales performance, revenue trends, customer behavior, and product performance.
 
-- Which sales agents generate the highest revenue?
-- Which products sell the most?
-- Which customers generate the highest revenue?
-- What is the overall sales conversion rate?
-- Which sales stages lose the most opportunities?
-- How does revenue change over time?
-- Which regions perform the best?
+The project follows a real-world analytics workflow:
 
----
-
-## Project Workflow
-
-1. Understand the dataset
-2. Clean the data using Python
-3. Store data in MySQL
-4. Perform SQL analysis
-5. Create Power BI dashboard
-6. Generate business insights
-7. Publish the project using Git & GitHub
-
----
-
-## Dataset Files
-
-- accounts.csv
-- products.csv
-- sales_pipeline.csv
-- sales_teams.csv
-- data_dictionary.csv
+```
+Raw Data
+    │
+    ▼
+Python Data Cleaning
+    │
+    ▼
+MySQL Database
+    │
+    ▼
+SQL Business Analysis
+    │
+    ▼
+Power BI Dashboard
+    │
+    ▼
+Business Insights
+```
 
 ---
 
-## Tools & Technologies
+# 🛠️ Tech Stack
 
 - Python
 - Pandas
-- NumPy
-- SQL
+- Matplotlib
 - MySQL
+- SQL
 - Power BI
 - Git
 - GitHub
 
 ---
 
-## Project Structure
+# 📂 Project Structure
 
 ```
 CRM-Analytics-Dashboard
 │
-├── data
-│   ├── raw
-│   └── cleaned
+├── analysis/
 │
-├── python
-├── sql
-├── notebooks
-├── powerbi
-├── images
+├── data/
+│   ├── raw/
+│   └── cleaned/
+│
+├── images/
+│
+├── powerbi/
+│
+├── python/
+│
+├── reports/
+│
+├── sql/
 │
 ├── README.md
 ├── requirements.txt
@@ -79,26 +72,167 @@ CRM-Analytics-Dashboard
 
 ---
 
-## Dashboard KPIs
+# 📋 Dataset
 
-- Total Revenue
-- Total Opportunities
-- Won Deals
-- Lost Deals
-- Win Rate
-- Revenue by Product
-- Revenue by Sales Agent
-- Revenue by Region
-- Monthly Revenue Trend
+The dataset contains CRM sales information including:
+
+- Customer Accounts
+- Sales Pipeline
+- Products
+- Sales Teams
+- Revenue
+- Deal Stage
+- Engagement Date
+- Close Date
 
 ---
 
-## Project Status
+# 🔄 Project Workflow
 
-🟢 Project Setup Completed
+### 1️⃣ Data Cleaning (Python)
 
-Next Phase:
-- Data Exploration
+- Removed duplicate records
+- Corrected inconsistent values
+- Converted date columns
+- Prepared clean datasets
+
+---
+
+### 2️⃣ Exploratory Data Analysis
+
+Performed analysis on:
+
+- Revenue
+- Deal stages
+- Sales agents
+- Products
+- Customers
+
+---
+
+### 3️⃣ SQL Analysis
+
+Business queries include:
+
+- Total Revenue
+- Won Deals
+- Lost Deals
+- Open Deals
+- Average Deal Value
+- Revenue by Product
+- Revenue by Region
+- Revenue by Sales Agent
+- Top Customers
+- Monthly Revenue Trend
+- Sales Agent Ranking
+- Win Rate
+
+---
+
+### 4️⃣ Power BI Dashboard
+
+Dashboard includes:
+
+- 💰 Total Revenue KPI
+- ✅ Won Deals
+- ❌ Lost Deals
+- ⏳ Open Deals
+- 📈 Win Rate
+- 📊 Monthly Revenue Trend
+- 🏆 Top Sales Agents
+- 📦 Product Performance
+- 🌍 Revenue by Region
+- 🥧 Sales Funnel
+- 🎛️ Interactive Filters
+
+---
+
+# 📈 Key Business Insights
+
+- Total Revenue generated: **₹10,005,534**
+- Total Opportunities: **8,800**
+- Won Deals: **4,238**
+- Lost Deals: **2,473**
+- Open Deals: **2,089**
+- Win Rate: **63.15%**
+- Best Product: **GTXPro**
+- Top Sales Agent: **Darcel Schlecht**
+- Top Customer: **Kan-code**
+
+---
+
+# 📸 Dashboard Preview
+
+> Dashboard screenshot will be added after Power BI dashboard completion.
+
+```
+images/dashboard.png
+```
+
+---
+
+# 💡 Business Recommendations
+
+- Increase investment in high-performing products.
+- Replicate successful sales practices of top-performing sales agents.
+- Focus on converting open opportunities into closed deals.
+- Improve strategies for reducing lost deals.
+- Monitor monthly revenue trends to identify seasonal patterns.
+
+---
+
+# ▶️ How to Run
+
+### Clone Repository
+
+```bash
+git clone https://github.com/KRISHExe520/CRM-Analytics-Dashboard.git
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run Python Scripts
+
+```bash
+python python/load_data.py
+
+python python/clean_data.py
+
+python python/eda.py
+
+python python/business_analysis.py
+```
+
+---
+
+# 📚 Skills Demonstrated
+
 - Data Cleaning
-- SQL Database Design
-- Power BI Dashboard
+- Data Analysis
+- Data Visualization
+- SQL Query Writing
+- Business Intelligence
+- Dashboard Design
+- Data Modeling
+- Git Version Control
+- Business Reporting
+
+---
+
+# 👨‍💻 Author
+
+**Krish Pandya**
+
+GitHub:
+
+https://github.com/KRISHExe520
+
+---
+
+# ⭐ If you found this project useful
+
+Please consider giving this repository a ⭐ on GitHub.
